@@ -1,0 +1,1 @@
+This ia a profile card project created with HTML, CSS and Javascript. It displays my personal information such as my name, Job title, bio, location,email, and links to my social media profile(Linkedin and github),it also didsplays the current UTC time, which updates in real-time 
