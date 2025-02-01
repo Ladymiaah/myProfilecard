@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <div class="card">
+        <img src="profilePicture.jpg" alt="Profile Picture" class="profile-img" data-testid="profilePicture">
+        <h2 data-testid="fullName">Lawal Adedoyin Mariam</h2>
+        <h3 data-testid="jobTitle">Frontend Developer</h3>
+        <p data-testid="currentLocation">Lagos State, Nigeria</p>
+        <p data-testid="emailAddress">
+            <a href="mailto:adedoyinlawal819@gmail.com">adedoyinlawal819@gmail.com</a>
+        </p>
+        <p data-testid=""shortBio class="biodata">
+            I am a skilled React Developer with a passion for building dynamic, user-friendly web applications.
+            Proficient in JavaScript, React.js, and modern front-end technologies, I specialize in creating 
+            responsive and scalable solutions. With a keen eye for UI/UX design, I ensure seamless user 
+            experiences. Dedicated to continuous learning, I stay updated with the latest industry trends. 
+            Passionate about innovation,I thrive in collaborative environments to develop impactful digital 
+            products.
+        </p>
+       
+        
+        <div class="social-links" data-testid="socialLinks">
+                <a 
+                    href="https://www.linkedin.com/in/adedoyin-lawal-6b6a29204?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
+                    target="_blank"
+                    class="social-btn linkedin"
+                >
+                    <i class="fab fa-linkedin"></i>
+                    Linkedin
+                </a>
+                <a 
+                    href="https://github.com/ladymiaah" 
+                    target="_blank" 
+                    class="social-btn github"> 
+                    <i class="fab fa-github"></i> Github
+                </a>
+            </div>
+        <p id="utcTime" class="time-display" data-testid="currentTimeUTC"></p>
+    </div>
+        <script src="script.js"></script>
+</body>
+</html>
